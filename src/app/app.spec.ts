@@ -1,7 +1,7 @@
 import { TestBed, ComponentFixture, async } from '@angular/core/testing';
 import { IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { ProductPage } from '../pages/product/product';
+import { TabsPage } from '../pages/tabs/tabs';
 
 import {} from 'jasmine';
 
@@ -53,7 +53,7 @@ describe('Component: Root Component', () => {
     });
  
     it('displays the product page to the user', () => {
-        expect(comp['rootPage']).toBe(ProductPage);
+        expect(comp['rootPage']).toBe(TabsPage);
     });
  
 });
