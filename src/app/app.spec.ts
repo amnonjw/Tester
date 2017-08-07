@@ -3,6 +3,7 @@ import { IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { ProductPage } from '../pages/product/product';
 
+import {} from 'jasmine';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';

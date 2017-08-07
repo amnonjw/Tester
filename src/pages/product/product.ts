@@ -16,11 +16,10 @@ import { ProductsProvider } from '../../providers/products/products'
 })
 export class ProductPage {
 
-  constructor(public navCtrl: NavController, public productsService: ProductsProvider) {
-  }
-
+  constructor(public navCtrl: NavController, public productsService: ProductsProvider) {}
+ 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ProductPage');
+    this.productsService.load();
   }
 
 }
