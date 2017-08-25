@@ -1,5 +1,5 @@
 import { TestBed, ComponentFixture, async } from '@angular/core/testing';
-import { IonicModule } from 'ionic-angular';
+import { IonicModule, IonicApp } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -21,7 +21,7 @@ describe('Component: Root Component', () => {
  
             providers: [
     StatusBar,
-    SplashScreen,
+    SplashScreen,IonicApp,
  
             ],
  
